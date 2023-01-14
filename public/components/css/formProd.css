@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.loginn{
+    color: #000000;
+    font-size: 30px;
+}
+
+.corpo{
+    background-image: url(imagens/background-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: #3193c1;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+}
+
+.cabecalho>img {
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cabecalho>h1 {
+    display: flex;
+    font-size: 2.0rem;
+    padding: 10px;
+    color: #FFF
+}
+
+.nav {
+    background-color: #80bedb47;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    color: rgba(227, 222, 222, 0.533);
+}
+
+.corpo {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 6px 6px 4px -4px #3193c1, -6px 0 4px -4px transparent;
+}
+
+.left-side-form {
+    width: 300px;
+    left: 25px;
+}
+
+.right-side-form {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: whitesmoke;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    font-family: Amatic SC;
+}
+
+form {
+    position: absolute;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+}
+
+.right-side-form >h1{
+    position: absolute;
+    font-size: 2.5rem;
+    padding: 10px;
+    top: 80px;
+    color: rgb(0, 0, 0);
+    font-family: Caveat;
+}
+
+.title{
+    left: -100px;
+    right: 200px;
+}
+
+.img-login{
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+}
+
+.buttonsForm {
+    margin-top: 40px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0 #3193c1;
+    width: fit-content;
+    left: -130px;
+}
+
+.buttonsForm button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+}
+
+.btnColor {
+    position: absolute;
+    width: 108px;
+    height: 100%;
+    background: linear-gradient(to right, #3193c1, #58c9fd);
+    border-radius: 30px;
+    transition: .3s;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: none;
+    margin-top: 40px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    width: 100%;
+}
+
+button[type="button"] {
+    background: #3193c1;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.divCheck {
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 13px;
+}
+
